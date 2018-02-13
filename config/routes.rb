@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   
   root 'pages#home'
   get 'about', to: 'pages#about'
+  
+  resources :articles # This gives paths to all the articles resources (article new, delete, edit etc)
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -57,3 +59,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 end
+
+
