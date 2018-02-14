@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   
   resources :articles # This gives paths to all the articles resources (article new, delete, edit etc)
+  
+  get '/signup', to: 'users#new'
+ # post 'users', to: 'users#create' (below is a better way)
+ resources :users, except: [:new]
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
