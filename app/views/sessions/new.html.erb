@@ -1,0 +1,19 @@
+<h1> Welcome to the Login Page </h1>
+
+<%= form_for (:session, url: login_path) do |f| %>   <!-- url: login_path tells it will be used as post request to login form -->
+  <p>
+    <%= f.label :email %><br>
+    <%= f.email_field :email %>
+  </p>
+  
+  <p>
+    <%= f.label :password %><br>
+    <%= f.password_field :password %>
+  </p>
+  <p>
+    <%= f.submit 'Log in' %>
+  </p>
+
+<% end %>
+
+<%= link_to "List Articles", articles_path %>
