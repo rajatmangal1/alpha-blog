@@ -1,1 +1,5 @@
-This is the first alpha-blog app of the Ruby and Rails Developer Course
+##Readme
+This is a simple blog app where user can sign up and can post blogs. But it has a bit of social intercation too. Users can comment or like other users blogs and can also share it on other social networking websites like Facebook, Twitter etc. 
+
+The backend language used for this is Ruby on Rails. 
+For CSS, bootstrap library is used heavily.
