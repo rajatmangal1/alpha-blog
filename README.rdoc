@@ -4,7 +4,7 @@ This is a simple Blog app where user can sign up and can post or see blogs. But 
 The backend language used for this is Ruby on Rails. 
 For CSS, the bootstrap library is used heavily.
 
-=Routes
+===Routes
 GET / : -  Basic route for the home page of the application.
 GET /about: - Will display the information about how the application work and what it does.
 GET /signup: - Will display the Signup page for the website
@@ -13,8 +13,8 @@ POST /login: - Will create a user session for the user.
 POST /signup: -  Will create a new user into the database.
 
 
-=Ruby Gems Used:- 
-bcrypt <br \>
+===Ruby Gems Used:- 
+bcrypt <br/>
 bootstrap-sass <br />
 sass-rails <br />
 uglifier <br />
@@ -25,4 +25,4 @@ turbolinks <br />
 jbuilder <br />
 sdoc <br />
 
-Information on these gems can be found at: - https://rubygems.org/
+====Information on these gems can be found at: - https://rubygems.org/
