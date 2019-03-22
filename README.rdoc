@@ -14,7 +14,7 @@ POST /signup: -  Will create a new user into the database.
 
 
 =Ruby Gems Used:- 
-bcrypt <br />
+bcrypt <br \>
 bootstrap-sass <br />
 sass-rails <br />
 uglifier <br />
