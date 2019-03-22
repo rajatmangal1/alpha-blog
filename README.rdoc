@@ -14,15 +14,6 @@ POST /signup: -  Will create a new user into the database.
 
 
 ===Ruby Gems Used:- 
-bcrypt <br/>
-bootstrap-sass <br />
-sass-rails <br />
-uglifier <br />
-coffee-rails <br />
-therubyracer <br />
-jquery-rails <br />
-turbolinks <br />
-jbuilder <br />
-sdoc <br />
+bcrypt, bootstrap-sass, sass-rails, uglifier, coffee-rails, therubyracer, jquery-rails, turbolinks, jbuilder, sdoc
 
 ====Information on these gems can be found at: - https://rubygems.org/
