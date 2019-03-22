@@ -1,5 +1,28 @@
-==Readme
-This is a simple Blog app where user can sign up and can post or see blogs. But it has a bit of social intercation too. Users can comment or like other users blogs and can also share it on other social networking websites like Facebook, Twitter etc. 
+==ReadMe
+This is a simple Blog app where user can sign up and can post or see blogs. But it has a bit of social interaction too. Users can comment or like other users blogs and can also share it on other social networking websites like Facebook, Twitter etc. 
 
 The backend language used for this is Ruby on Rails. 
-For CSS, bootstrap library is used heavily.
+For CSS, the bootstrap library is used heavily.
+
+=Routes
+GET / : -  Basic route for the home page of the application.
+GET /about: - Will display the information about how the application work and what it does.
+GET /signup: - Will display the Signup page for the website
+GET /login: - Will display the login page for the website
+POST /login: - Will create a user session for the user.
+POST /signup: -  Will create a new user into the database.
+
+
+=Ruby Gems Used:- 
+bcrypt <br />
+bootstrap-sass <br />
+sass-rails <br />
+uglifier <br />
+coffee-rails <br />
+therubyracer <br />
+jquery-rails <br />
+turbolinks <br />
+jbuilder <br />
+sdoc <br />
+
+Information on these gems can be found at: - https://rubygems.org/
